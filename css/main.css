@@ -285,121 +285,72 @@ html, body {
 }
 
 
-@media (max-width: 600px) {
-  #nav {
-      padding: 10px; 
-  }
-  #nav a {
-      font-size: 14px; 
-  }
-
-  #heading h1 {
-      font-size: 8vw; /* Adjust font size for small screens */
-  }
-
-  .blocktext h5,
-  #chhotiheadings h5 {
-      font-size: 12px; /* Decrease font size for small screens */
-  }
-
-  #herofooter {
-      padding: 0 1vw; /* Adjust padding for small screens */
-  }
-
-  #herofooter a {
-      font-size: 14px; /* Decrease font size for small screens */
-  }
-
-  #second {
-      padding-top: 100px; /* Adjust padding for small screens */
-  }
-
-  .elem h1 {
-      font-size: 6.6vw; /* Adjust font size for small screens */
-  }
-
-  #about {
-      padding: 10vw 2vw; /* Adjust padding for small screens */
-  }
-
-  #textabout h5 {
-      padding-top: 20vw; /* Adjust padding for small screens */
-  }
-
-  #textabout p {
-      margin-bottom: 20px; /* Adjust margin for small screens */
-  }
-
-  #about img {
-      width: 150px; /* Adjust image size for small screens */
-      height: 150px;
-  }
-
-  #textabout a,
-  #subscribe h3 {
-      font-size: 12px; /* Decrease font size for small screens */
-  }
-}
-
-
-@media (max-width: 320px) {
+@media only screen and (max-width: 320px) {
     #nav {
-        padding: 8px; 
+        padding: 10px 20px;
     }
-    #nav a {
-        font-size: 10px; 
-    }
-  
+
     #heading h1 {
-        font-size: 5vw; /* Adjust font size for small screens */
+        font-size: 8vw;
     }
-  
-    .blocktext h5,
+
+    #heading #secondh1 {
+        margin-left: 130px;
+    }
+
+    #chhotiheadings {
+        padding-right: 10vw; /* Increase right padding for more space */
+    }
+
     #chhotiheadings h5 {
-        font-size: 8px; /* Decrease font size for small screens */
+        font-size: 0.8vw;
     }
-  
+
     #herofooter {
-        padding: 0 0vw; /* Adjust padding for small screens */
+        padding: 0 20px; /* Increase padding for more space */
     }
-  
-    #herofooter a {
-        font-size: 8px; /* Decrease font size for small screens */
-    }
-  
+
     #second {
-        padding-top: 100px; /* Adjust padding for small screens */
+        padding-right: 10vw;
+        padding-top: 100px;
     }
-  
+
     .elem h1 {
-        font-size: 4vw; /* Adjust font size for small screens */
+        font-size: 5.6vw;
     }
-  
+
     #about {
-        padding: 5vw 1vw; /* Adjust padding for small screens */
+        padding: 5vw 10vw; /* Increase padding for more space */
+        padding-left: 10vw;
     }
-  
+
     #textabout h5 {
-        padding-top: 10vw; /* Adjust padding for small screens */
+        padding-top: 10vw;
     }
-  
-    #textabout p {
-        margin-bottom: 10px; /* Adjust margin for small screens */
-    }
-  
+
     #about img {
-        width: 150px; /* Adjust image size for small screens */
+        width: 150px;
         height: 150px;
     }
-  
-    #textabout a,
-    #subscribe h3 {
-        font-size: 8px; /* Decrease font size for small screens */
+
+    #subscribe {
+        padding: 10px 30px; /* Increase padding for more space */
+        padding-bottom: 3vw;
     }
-  }
-  #footerleft{
-    font-size: 8px;
-  }
-  #footerleft a{
-    font-size:5px ;
-  }
+
+    #subscribe h5 {
+        font-size: 0.8vw;
+    }
+
+    #subscribe h3 {
+        font-size: 10px;
+    }
+
+    #footer {
+        padding: 20px 20px; /* Increase padding for more space */
+    }
+
+    #footer a {
+        font-size: 12px;
+    }
+}
