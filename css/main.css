@@ -271,43 +271,34 @@ html, body {
     text-decoration: none;
 }
 
-/* Common styles for all screen sizes */
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "General Sans";
-  box-sizing: border-box;
-}
-
-html, body {
-  width: 100%;
-  height: 100%;
-}
-
-
 @media only screen and (max-width: 320px) {
+
+   
     #nav {
-        padding: 10px 20px;
+        
+        margin-left: 10vw;
     }
 
     #heading h1 {
-        font-size: 8vw;
+        font-size: 12vw;
     }
 
     #heading #secondh1 {
+        font-size: 12vw;
         margin-left: 130px;
     }
 
     #chhotiheadings {
-        padding-right: 10vw; /* Increase right padding for more space */
+        padding-right: 60vw; 
     }
 
     #chhotiheadings h5 {
-        font-size: 0.8vw;
+        font-size: 3vw;
     }
 
     #herofooter {
-        padding: 0 20px; /* Increase padding for more space */
+        margin-left: 2vw;
+        
     }
 
     #second {
@@ -320,26 +311,58 @@ html, body {
     }
 
     #about {
-        padding: 5vw 10vw; /* Increase padding for more space */
+        position: relative;
+        bottom: 100vw;
+        display: flex;
+        padding: 5vw 10vw; 
         padding-left: 10vw;
     }
 
     #textabout h5 {
         padding-top: 10vw;
+        position: relative;
+        right: 60vw;
+        align-items: center;
+        bottom: 4vw;
+        width: 200px;
+    }
+    #textabout p {
+        position: relative;
+        right: 60vw;
+        align-items: center;
+        bottom: 4vw;
+        width: 200px;
+    
+
+
+    }
+    #textabout a {
+        position: relative;
+        right: 60vw;
+        align-items: center;
+        bottom: 4vw;
+        width: 200px;
+    
+
+
     }
 
     #about img {
-        width: 150px;
-        height: 150px;
+
+        position: relative;
+        bottom: 150vw;
+        left: 6vw;
+        width: 250px;
+        height: 250px;
     }
 
     #subscribe {
-        padding: 10px 30px; /* Increase padding for more space */
+        padding: 10px 30px;
         padding-bottom: 3vw;
     }
 
     #subscribe h5 {
-        font-size: 0.8vw;
+        font-size: 5vw;
     }
 
     #subscribe h3 {
@@ -347,10 +370,21 @@ html, body {
     }
 
     #footer {
-        padding: 20px 20px; /* Increase padding for more space */
+        padding: 20px 20px; 
     }
 
     #footer a {
-        font-size: 12px;
+        font-size: 8px;
+    }
+
+    #footerclock {
+        font-size: 8px;
+        right: vw;
+    }
+    #footerright  {
+        font-size: 8px;
+        margin-right: 2vw;
     }
 }
+
+
